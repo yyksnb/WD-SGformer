@@ -1,0 +1,27 @@
+# ===============================================================
+# Requirements for WD-SGformer
+# ---------------------------------------------------------------
+# This file lists the core dependencies needed to run the model.
+# It is recommended to install these in a virtual environment.
+#
+# Developed and tested with Python 3.12.
+# ===============================================================
+
+# --- Core Deep Learning Libraries ---
+# Note: The torch version is linked to a specific CUDA version (cu124).
+# If you have a different CUDA setup, please install a compatible
+# version of PyTorch from https://pytorch.org/
+torch==2.5.1
+torchvision==0.20.1
+
+# --- Data Handling and Numerics ---
+numpy==1.26.4
+pandas==1.5.3
+
+# --- Scientific Computing & Metrics ---
+scikit-learn==1.5.2
+scipy==1.14.1
+
+# --- Visualization (Optional, for running demos/notebooks) ---
+matplotlib==3.9.2
+tqdm  # Version is often flexible, no need to lock

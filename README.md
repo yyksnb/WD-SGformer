@@ -6,9 +6,9 @@
 
 This repository contains the official PyTorch implementation of the **WD-SGformer** model, a novel deep learning architecture for multi-step wind power forecasting, as presented in our paper:
 
-> **[Your Paper Title Here]**  
-> *[Your Name], et al.*  
-> *[Conference/Journal Name, 2024]* (or *Under Review*)  
+> **[ WD-SGformer: high-precision wind power forecasting via dual-attention dynamic spatio-temporal learning]**  
+> *[Yakai Yang], et al.*  
+> *[Under Review]* (or *Under Review*)  
 > **[Link to your paper - e.g., on ArXiv, once available]**
 
 ---
@@ -26,7 +26,8 @@ WD-SGformer effectively models complex spatiotemporal dependencies in wind power
 This dual-encoder architecture enables WD-SGformer to achieve state-of-the-art performance in wind power forecasting tasks.
 
 *(Optional: You can add a link or an image of your model architecture here for better visualization, for example:)*  
-*![Model Architecture](path/to/your/architecture_diagram.png)*
+*![Model Architecture](path/to/your/architecture_diagram.png)*<img width="1062" height="531" alt="image" src="https://github.com/user-attachments/assets/fcf58ec4-2c69-4bd8-830e-57e9863d0cb8" />
+
 
 ---
 
@@ -70,16 +71,6 @@ It is recommended to use a virtual environment (e.g., `conda` or `venv`).
 ```bash
 pip install -r requirements.txt
 ```
-
-### 3. Run the demo
-
-The demo script will load the sample data, prepare a single batch, and perform a forward pass through the WD-SGformer model. This verifies that the architecture is correctly set up and provides an example of its usage.
-
-```bash
-python demo.py
-```
-
-You should see output indicating successful data loading, model initialization, and a correct output shape from the forward pass.
 
 ---
 
